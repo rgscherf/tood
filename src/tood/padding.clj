@@ -5,6 +5,8 @@
   (apply str (repeat num-spaces " ")))
 
 (defn pad-string
+  ;; TODO add 'padwith' param (default to \space)
+  ;; TODO implement padwith and pad-left? as options map
   "Pad a string to intended length from the left (default) or right. If intended length is > the string's length, the string will be truncated."
   ([string intended-len]
    (pad-string string intended-len true))
