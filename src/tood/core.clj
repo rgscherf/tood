@@ -28,14 +28,6 @@
       :done     false
       :priority 5}]}))
 
-(defn- hr
-  [length]
-  (str 
-   "+"
-   (clojure.string/join (repeat (- length 2)
-                                "-"))
-   "+"))
-
 (defn refresh-todos!
   []
   (s/clear screen)
