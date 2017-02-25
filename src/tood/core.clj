@@ -1,7 +1,6 @@
 (ns tood.core
   (:import java.util.Date)
-  (:require 
-            [tood.padding :as padding]
+  (:require [tood.padding :as padding]
             [tood.todos :as todos]
             [tood.action-panel :as panel]
             [tood.repl :as nrepl]

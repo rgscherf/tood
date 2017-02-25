@@ -1,5 +1,6 @@
 (ns tood.todos
-  (:require [tood.render-utils :as utils]
+  (:require [lanterna.screen :as s]
+            [tood.render-utils :as utils]
             [tood.padding :as padding]))
 
 (defn- stringify-todo
